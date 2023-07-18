@@ -66,8 +66,78 @@ body {
     color: black;
 }
 
+/**Navbar Ends Here**/
 
+/**First Banner Starts Here**/
+.banner-1-container {
+    height: 65%;
+    background-image: url(./images/Group\ 14.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.fist-banner-title {
+    color: #0B0223;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.second-banner-title {
+    font-size: 59px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-1-container ul {
+    margin-bottom: 20px;
+}
+
+.banner-1-content ul li {
+    list-style: none;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fa-circle-play {
+    margin-right: 15px;
+}
+
+.fa-cloud-arrow-down {
+    color: #F948B2;
+    margin-right: 15px;
+}
+
+.fa-user {
+    margin-right: 15px;
+}
+
+.first-btn {
+    border-radius: 48px;
+    background: #FF42A5;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 25px;
+
+}
+.second-btn{
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 25px;
+}
+
+.gaming-first-img {
+    width: 450px;
+    height: 350px;
+}
 
 
 
