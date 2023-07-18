@@ -138,7 +138,22 @@ body {
     width: 450px;
     height: 350px;
 }
-
+/**1st banner ends**/
+/**2nd banner starts**/
+.banner-container-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-content-2{
+   text-align: end;
+}
+.banner-desc-2{
+    width: 500px;
+}
+.gamming-img-2{
+    width: 600px;
+}
 
 
 
@@ -193,6 +208,51 @@ body {
     }
     .second-btn{
         padding: 10px 15px;
+    }
+    /**1st banner ends**/
+}
+
+@media screen and (min-width:576px) and (max-width:992px){
+    /**navbar**/
+    .nav-container {
+        flex-direction: column;
+    }
+    .icon {
+        margin-bottom: 40px;
+    }
+    /**navbar**/
+    /**1st banner**/
+    .banner-1-container{
+        flex-direction: column-reverse; 
+        justify-content: center;
+        background-image: none; 
+    }
+    .banner-1-container ul li{
+        font-size: 25px;
+    }
+    .gaming-first-img{
+        width: 550px;
+        height: 450px;
+        margin-bottom: 50px;
+    }
+    .banner-1-content{
+        background-image: url(./images/Group\ 14.png);
+        margin: 0 auto;
+        padding: 50px;
+    }
+    .fist-banner-title{
+        font-size: 55px;
+    }
+    .second-banner-title{
+        font-size: 80px;
+    }
+    .first-btn{
+        padding: 20px 25px;
+        font-size: 20px;
+    }
+    .second-btn{
+        padding: 20px 25px;
+        font-size: 20px;
     }
 }
     
