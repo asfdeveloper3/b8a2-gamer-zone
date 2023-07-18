@@ -144,6 +144,7 @@ body {
 
 /**Responsive in Mobile**/
 @media screen and (max-width:576px) {
+    /*Navbar*/
     .nav-container {
         flex-direction: column;
     }
@@ -160,4 +161,38 @@ body {
     .menus ul li {
         margin-bottom: 20px;
     }
+    /*Navbar*/
+
+    /*1st Banner*/
+    .banner-1-container{
+        flex-direction: column-reverse; 
+        justify-content: center;
+        background-image: none; 
+    }
+    .banner-1-container ul li{
+        font-size: 12px;
+    }
+    .gaming-first-img{
+        width: 250px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    .banner-1-content{
+        background-image: url(./images/Group\ 14.png);
+        margin: 0 auto;
+        padding: 50px;
+    }
+    .fist-banner-title{
+        font-size: 28px;
+    }
+    .second-banner-title{
+        font-size: 36px;
+    }
+    .first-btn{
+        padding: 10px 15px;
+    }
+    .second-btn{
+        padding: 10px 15px;
+    }
 }
+    
