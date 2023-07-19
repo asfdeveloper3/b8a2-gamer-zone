@@ -72,6 +72,9 @@ body {
 .banner-1-container {
     height: 65%;
     background-image: url(./images/Group\ 14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -86,7 +89,7 @@ body {
 .second-banner-title {
     font-size: 59px;
     font-weight: 800;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -125,7 +128,8 @@ body {
     padding: 15px 25px;
 
 }
-.second-btn{
+
+.second-btn {
     border-radius: 48px;
     background: #4EC5F7;
     color: #FFF;
@@ -138,27 +142,123 @@ body {
     width: 450px;
     height: 350px;
 }
+
 /**1st banner ends**/
 /**2nd banner starts**/
-.banner-container-2{
+.banner-container-2 {
+    background-color: #FF42A5, linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    background-blend-mode: color-dodge;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.banner-content-2{
-   text-align: end;
-}
-.banner-desc-2{
-    width: 500px;
-}
-.gamming-img-2{
-    width: 600px;
+
+.banner-content-2 {
+    text-align: end;
+    margin-right: 30px;
+
 }
 
+.banner-title-2 {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-desc-2 {
+    width: 500px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.third-btn {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 12px;
+    background-color: #FF42A5;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.purpose {
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.banner-second-title-2 {
+    color: #534C64;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.gamming-img-2 {
+    width: 550px;
+}
+
+/**2nd banner ends here**/
+
+/**3rd banner-starts here**/
+.third-banner-content {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.banner-title-3 {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.banner-desc-3 {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin:20px 0px;
+}
+
+.third-banner-img-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-img-box-3 {
+    width: 250px;
+}
+
+.banner-img-3 {
+    width: 250px;
+    height: 300px;
+}
+
+.banner-img-3:hover {
+    border: 5px solid salmon;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.img-desc{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
 
 
 /**Responsive in Mobile**/
 @media screen and (max-width:576px) {
+
     /*Navbar*/
     .nav-container {
         flex-direction: column;
@@ -176,83 +276,160 @@ body {
     .menus ul li {
         margin-bottom: 20px;
     }
+
     /*Navbar*/
 
     /*1st Banner*/
-    .banner-1-container{
-        flex-direction: column-reverse; 
+    .banner-1-container {
+        flex-direction: column-reverse;
         justify-content: center;
-        background-image: none; 
+        background-image: none;
     }
-    .banner-1-container ul li{
+
+    .banner-1-container ul li {
         font-size: 12px;
     }
-    .gaming-first-img{
+
+    .gaming-first-img {
         width: 250px;
         height: 300px;
         margin-bottom: 50px;
     }
-    .banner-1-content{
+
+    .banner-1-content {
         background-image: url(./images/Group\ 14.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
         margin: 0 auto;
         padding: 50px;
     }
-    .fist-banner-title{
+
+    .fist-banner-title {
         font-size: 28px;
     }
-    .second-banner-title{
+
+    .second-banner-title {
         font-size: 36px;
     }
-    .first-btn{
+
+    .first-btn {
         padding: 10px 15px;
     }
-    .second-btn{
+
+    .second-btn {
         padding: 10px 15px;
     }
+
     /**1st banner ends**/
+    /**2ne banner starts**/
+    .banner-container-2 {
+        flex-direction: column;
+    }
+
+    .gamming-img-2 {
+        width: 350px;
+    }
+
+    .banner-content-2 {
+        text-align: center;
+    }
+
+    .banner-title-2 {
+        font-size: 35px;
+    }
+
+    .banner-desc-2 {
+        width: 280px;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    .third-btn {
+        margin-top: 20px;
+    }
+
+    .purpose {
+        margin-top: 30px;
+    }
+
+    .banner-second-title-2 {
+        font-size: 18px;
+    }
 }
 
-@media screen and (min-width:576px) and (max-width:992px){
+@media screen and (min-width:576px) and (max-width:992px) {
+
     /**navbar**/
     .nav-container {
         flex-direction: column;
     }
+
     .icon {
         margin-bottom: 40px;
     }
+
     /**navbar**/
     /**1st banner**/
-    .banner-1-container{
-        flex-direction: column-reverse; 
+    .banner-1-container {
+        flex-direction: column-reverse;
         justify-content: center;
-        background-image: none; 
+        background-image: none;
     }
-    .banner-1-container ul li{
+
+    .banner-1-container ul li {
         font-size: 25px;
     }
-    .gaming-first-img{
+
+    .gaming-first-img {
         width: 550px;
         height: 450px;
         margin-bottom: 50px;
     }
-    .banner-1-content{
+
+    .banner-1-content {
         background-image: url(./images/Group\ 14.png);
         margin: 0 auto;
         padding: 50px;
     }
-    .fist-banner-title{
+
+    .fist-banner-title {
         font-size: 55px;
     }
-    .second-banner-title{
+
+    .second-banner-title {
         font-size: 80px;
     }
-    .first-btn{
+
+    .first-btn {
         padding: 20px 25px;
         font-size: 20px;
     }
-    .second-btn{
+
+    .second-btn {
         padding: 20px 25px;
         font-size: 20px;
+    }
+
+    /*1st banner ends*/
+
+    /**2nd banner starts**/
+    .banner-container-2 {
+        flex-direction: column;
+    }
+
+    .banner-content-2 {
+        text-align: center;
+    }
+
+    .banner-desc-2 {
+        width: 600px;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+
+    .third-btn {
+        margin: 30px;
     }
 }
-    
