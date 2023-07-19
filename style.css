@@ -357,6 +357,27 @@ span {
     .banner-second-title-2 {
         font-size: 18px;
     }
+    /**2nd banner ends here**/
+
+    /**3rd banner starts here**/
+    .banner-title-3{
+        size: 7px;
+    font-weight: 700;
+    }
+    .third-banner-content{
+        width: 400px;
+        
+    }
+    .banner-desc-3{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .third-banner-img-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -432,4 +453,12 @@ span {
     .third-btn {
         margin: 30px;
     }
+    /**2nd banner ends here**/
+
+    /*3rd banner starts here*/
+    .third-banner-img-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px 100px;
+}
 }
